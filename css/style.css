@@ -1,0 +1,84 @@
+*{margin: 0;padding: 0;box-sizing: border-box;user-select: none;}
+ul,li{list-style: none;}
+html{font-size: 16px;line-height: 1.6;}
+body{max-width: 998px;margin: 0 auto;background-color: #fff;}
+img{max-width: 100%;}
+a{text-decoration: none;}
+.banner{height: 120vw;max-height: 780px; background: url(../images/banner_bg.jpg) center no-repeat;position: relative;text-align: center;}
+.banner .logo{position: absolute;left: 20px;top: 20px;display: block;}
+.banner .text{padding-top: 3.5rem;font-weight: bold;color: #099ade;line-height: 1.26;}
+.banner .text .p1{font-size: 6.0rem;}
+.banner .text .p2{font-size: 4.0rem;}
+.banner .text .p3{font-size: 1.6rem;margin-top: 0.5rem; display: inline-block;background-color: #098add;color: #fff;padding: 5px 10px;border-radius: 1.25rem;}
+.banner .img{margin: 20px auto 0;max-width: 50.0rem;text-align: center;}
+.banner .img img{width: 450px;}
+.banner .mimg{display: none;}
+.banner .buttona{margin-top: -1.5rem;position: relative;z-index: 2;}
+.buttona{text-align: center;margin-top: 1.5rem;margin-bottom: 1.5rem;}
+.buttona a{display: inline-block;padding: 0.6rem 1rem;border-radius: 10px;background-color: #02caf3;color: #fff;font-size: 2.2rem;vertical-align: middle;font-weight: bold;background-image: linear-gradient(to bottom,#02caf3,#299ae2);transition: color 0.33s;}
+.buttona span{display: inline-block;width: 1.95rem;height: 1.95rem;background: url(../images/icon_right.png) center no-repeat;background-size: 100%;vertical-align: middle;}
+.buttona a:hover{color: #333}
+.buttona.white a{background-color: #fff;color: #006ddc;background-image: none;}
+.buttona.white span{background-image: url(../images/icon_right2.png);}
+
+.section{padding: 3.0rem 20px 1.5rem;}
+.section .img{width: 100%;text-align: center;margin: 1.5rem 0; }
+.section h2,.section h3{font-weight: bold;}
+.section2 h2{font-size: 4.5rem;margin: 1.0rem auto;text-align: center;color: #098add;}
+.section2 .img{width: 100%;text-align: center;}
+.section2 .text{text-align: center;margin-bottom: 20px;}
+.section2 .text .p1{font-size: 2.5rem;color: #0990de;font-weight: bold;}
+.section2 .text .p2{font-size: 2.1rem;color: #0990de;}
+.section2 .buttona{margin-bottom: 30px;}
+
+.section3{background: url(../images/posimg3_bg.jpg) center no-repeat;background-size: cover;}
+.section3 h2{font-size: 3.5rem;color: #fff;text-align: center;}
+.section3 h3{font-size: 2.9rem;color: #006cdb;text-align: center;line-height: 1.4;}
+.section3 h3 span{display: inline-block;background-color: #fff;padding: 0.5rem;border-radius: 0.75rem;}
+.section3 .text{text-align: center;color: #fff;font-size: 1.6rem;margin: 10px 0;}
+
+
+.section4{background: url(../images/posimg4_bg.jpg) center no-repeat;background-size: cover;}
+.section4 h2{font-size: 3.5rem;color: #006cdb;text-align: center;}
+.section4 .text{text-align: center;color: #333;font-size: 1.6rem;margin: 10px auto;width: 75%;text-align: left;}
+.section4 .text div{padding-left: 3.0rem;}
+
+.section5{margin: 15px 10px;background-color: #fff;padding: 20px 15px;border-radius: 0.5rem;}
+.section5 h2{text-align: center;color: #098ddd;font-size: 2.4rem;}
+.section5 h3{text-align: center;color: #098ddd;font-size: 2.4rem;}
+.section5 .text{overflow: hidden;margin-top: 1.0rem;counter-reset: chapter;}
+.section5 .text p{float: left;width: 50%;padding-right: 10px;font-size: 1.5rem;color: #098ddd;font-weight: bold;position: relative;padding-left: 2.5rem;margin-bottom: 0.6rem;}
+.section5 .text p:after{width: 2rem;height: 2rem;background-color: #098ddd;position: absolute;left: 0;top: 0;color: #fff;counter-increment: chapter;content: counter(chapter);font-style: italic;border-radius: 2rem;text-indent: 0.3rem;list-style-type:decimal;}
+
+.section6{margin: 15px 10px;background-color: #fff;padding: 20px 15px;border-radius: 0.5rem;}
+.section6 h2{text-align: center;color: #098ddd;font-size: 2.4rem;}
+.section6 h3{text-align: center;color: #098ddd;font-size: 1.8rem;}
+.section6 .text{font-size: 1.4rem;font-weight: bold;margin-top: 10px;color: #098ddd}
+.section6 .text2{font-size: 1.3rem;margin-top: 10px;color: #098ddd}
+.section6 .text3{padding-left: 1.0rem; font-size: 1.2rem;color: #333}
+.section6 .desc{font-size: 1.2rem;margin-top: 10px;color: #333;}
+
+.table table{width: 100%;margin: 1.0rem 0;}
+.table .tbhead{color: #098ddd;background-color: #e6e8f3;}
+.table .htd{color: #098ddd;background-color: #e6e8f3;font-weight: bold;}
+.table.table2 tr td:first-child{min-width: 8rem;}
+.table td{font-size: 1.0rem;padding: 2px;border-bottom: 1px solid #000;border-right: 1px solid #000;text-align: center;}
+.table tr td:first-child{min-width: 4rem;}
+.table table{border-top: 1px solid #000;border-left: 1px solid #000;}
+
+.case{margin: 15px 10px;background-color: #fff;padding: 20px 20px;border-radius: 0.5rem;}
+.case h2{text-align: center;color: #098ddd;font-size: 2.4rem;}
+.caselist{overflow: hidden;margin-left: -1.0rem;padding-top: 1rem;padding-bottom: 1rem;margin-top: 1.0rem;}
+.caselist .con{width: 50%;padding: 0 1.0rem;float: left;margin-bottom: 2rem;}
+.caselist .con.con2{width: 100%;}
+.caselist .con img{box-shadow: 0.4rem 0.4rem 0.8rem rgba(0,0,0,0.3);width: 100%;}
+
+@media(max-width: 630px){
+	html{font-size: 2.4vw;}
+	.banner{height: auto;max-height: 780px;background: none;}
+	.banner .text{display: none;}
+	.banner .logo{display: none;}
+	.banner .img{display: none;}
+	.banner .mimg{display: block;}
+	.banner .buttona{position: absolute;bottom: 20px;left: 50%;transform: translateX(-50%);}
+}
