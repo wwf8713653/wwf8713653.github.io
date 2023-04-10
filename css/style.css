@@ -65,7 +65,7 @@ a{text-decoration: none;}
 .table .tbhead{color: #098ddd;background-color: #e6e8f3;}
 .table .htd{color: #098ddd;background-color: #e6e8f3;font-weight: bold;}
 .table.table2 tr td:first-child{min-width: 8rem;}
-.table td{font-size: 1.0rem;padding: 2px;border-bottom: 1px solid #000;border-right: 1px solid #000;text-align: center;}
+.table td{font-size: 1.2rem;padding: 2px;border-bottom: 1px solid #000;border-right: 1px solid #000;text-align: center;}
 .table tr td:first-child{min-width: 4rem;}
 .table table{border-top: 1px solid #000;border-left: 1px solid #000;}
 
