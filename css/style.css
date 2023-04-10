@@ -41,7 +41,10 @@ a{text-decoration: none;}
 .section4{background: url(../images/posimg4_bg.jpg) center no-repeat;background-size: cover;}
 .section4 h2{font-size: 3.5rem;color: #006cdb;text-align: center;}
 .section4 .text{text-align: center;color: #333;font-size: 1.6rem;margin: 10px auto;width: 75%;text-align: left;}
-.section4 .text div{padding-left: 3.0rem;}
+.section4 .text div{padding-left: 3.0rem;background: url(../images/icon_1.png) left 0.5rem center no-repeat; background-size: 1.5rem;}
+.section4 .text .p2{background-image: url(../images/icon_2.png);}
+.section4 .text .p3{background-image: url(../images/icon_3.png);}
+.section4 .text .p3{background-image: url(../images/icon_4.png);}
 
 .section5{margin: 15px 10px;background-color: #fff;padding: 20px 15px;border-radius: 0.5rem;}
 .section5 h2{text-align: center;color: #098ddd;font-size: 2.4rem;}
