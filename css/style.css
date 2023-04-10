@@ -15,9 +15,10 @@ a{text-decoration: none;}
 .banner .mimg{display: none;}
 .banner .buttona{margin-top: -1.5rem;position: relative;z-index: 2;}
 .buttona{text-align: center;margin-top: 1.5rem;margin-bottom: 1.5rem;}
-.buttona a{display: inline-block;padding: 0.6rem 1rem;border-radius: 10px;background-color: #02caf3;color: #fff;font-size: 2.2rem;vertical-align: middle;font-weight: bold;background-image: linear-gradient(to bottom,#02caf3,#299ae2);transition: color 0.33s;}
+.buttona a{display: inline-block;padding: 0.6rem 1rem;border-radius: 10px;background-color: #02caf3;color: #fff;font-size: 2.2rem;vertical-align: middle;font-weight: bold;background-image: linear-gradient(to bottom,#02caf3,#299ae2);transition: color 0.33s ease-in-out;}
 .buttona span{display: inline-block;width: 1.95rem;height: 1.95rem;background: url(../images/icon_right.png) center no-repeat;background-size: 100%;vertical-align: middle;position: relative;top: -0.2rem;}
 .buttona a:hover{color: #555;}
+.buttona.white a:hover{color: #555;}
 .buttona.white a{background-color: #fff;color: #006ddc;background-image: none;}
 .buttona.white span{background-image: url(../images/icon_right2.png);}
 
