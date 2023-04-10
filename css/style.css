@@ -7,9 +7,9 @@ a{text-decoration: none;}
 .banner{height: 120vw;max-height: 780px; background: url(../images/banner_bg.jpg) center no-repeat;position: relative;text-align: center;}
 .banner .logo{position: absolute;left: 1.5rem;top: 1.5rem;display: block;width: 14.9rem;height: 1.9rem;}
 .banner .text{padding-top: 3.5rem;font-weight: bold;color: #099ade;line-height: 1.26;}
-.banner .text .p1{font-size: 6.0rem;}
-.banner .text .p2{font-size: 4.0rem;}
-.banner .text .p3{font-size: 1.6rem;margin-top: 0.5rem; display: inline-block;background-color: #098add;color: #fff;padding: 5px 10px;border-radius: 1.25rem;}
+.banner .text .p1{font-size: 6.0rem;text-shadow: 2px 3px 1px white;}
+.banner .text .p2{font-size: 4.0rem;text-shadow: 2px 3px 1px white;}
+.banner .text .p3{font-size: 1.6rem;margin-top: 0.5rem; display: inline-block;background-color: #098add;color: #fff;padding: 5px 10px;border-radius: 1.25rem;box-shadow: 2px 3px 1px white;}
 .banner .img{margin: 34px auto 6px;max-width: 50.0rem;text-align: center;}
 .banner .img img{width: 450px;}
 .banner .mimg{display: none;}
