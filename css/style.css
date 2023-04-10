@@ -10,10 +10,10 @@ a{text-decoration: none;}
 .banner .text .p1{font-size: 6.0rem;}
 .banner .text .p2{font-size: 4.0rem;}
 .banner .text .p3{font-size: 1.6rem;margin-top: 0.5rem; display: inline-block;background-color: #098add;color: #fff;padding: 5px 10px;border-radius: 1.25rem;}
-.banner .img{margin: 20px auto 0;max-width: 50.0rem;text-align: center;}
+.banner .img{margin: 34px auto 6px;max-width: 50.0rem;text-align: center;}
 .banner .img img{width: 450px;}
 .banner .mimg{display: none;}
-.banner .buttona{margin-top: -1.5rem;position: relative;z-index: 2;}
+.banner .buttona{margin-top: -2.3rem;position: relative;z-index: 2;}
 .buttona{text-align: center;margin-top: 1.5rem;margin-bottom: 1.5rem;}
 .buttona a{display: inline-block;padding: 0.6rem 1rem;border-radius: 10px;background-color: #02caf3;color: #fff;font-size: 2.2rem;vertical-align: middle;font-weight: bold;background-image: linear-gradient(to bottom,#02caf3,#299ae2);transition: color 0.33s ease-in-out;}
 .buttona span{display: inline-block;width: 1.95rem;height: 1.95rem;background: url(../images/icon_right.png) center no-repeat;background-size: 100%;vertical-align: middle;position: relative;top: -0.2rem;}
